@@ -1,12 +1,12 @@
 <template>
   <header>
     <nav>
-      <h1>Merchstore</h1>
+      <h1><router-link to="/" tag="li">Merchstore</router-link></h1>
       <ul>
-        <li>Cart</li>
-        <li>Log out</li>
-        <li>Log in</li>
-        <li>Create Account</li>
+        <router-link to="/cart" tag="li">Cart</router-link>
+        <router-link to="/logout" tag="li">Log out</router-link>
+        <router-link to="/login" tag="li">Log in</router-link>
+        <router-link to="/create" tag="li">Create Account</router-link>
       </ul>
     </nav>
   </header>
@@ -21,6 +21,7 @@ export default {
 <style>
 li {
   list-style-type: none;
+  cursor: pointer;
 }
 nav {
   display: flex;
