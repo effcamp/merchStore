@@ -25,7 +25,6 @@ export default new Vuex.Store({
       }
     },
     removeOne: (state, item) => {
-      // const temp = state.cartItems.filter((i)=> i.id === item.id);
       const i = state.cartItems.findIndex(i => i.id === item.id);
 
       if (state.cartItems[i].quantity > 1) {
