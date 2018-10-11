@@ -33,12 +33,13 @@ export default {
 
 <style>
 .merch-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap: 5px;
   justify-content: center;
-  flex-wrap: wrap;
+  margin-top: 15px;
 }
+
 .merch-item {
-  border: 1px solid red;
-  min-width: 200px;
 }
 </style>

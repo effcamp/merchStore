@@ -134,7 +134,7 @@ export default [
   {
     id: 12,
     itemName: "Emerald Green",
-    image: require("./shirt-images/shirt-black.jpg"),
+    image: require("./shirt-images/shirt-emerald-green.jpg"),
     sizes: {
       s: 1,
       m: 1,

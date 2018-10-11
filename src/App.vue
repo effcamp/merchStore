@@ -1,10 +1,10 @@
 <template>
   <div id="app">
    
-    <app-header></app-header>
-    <router-view/>
+    <app-header class="header"></app-header>
+    <router-view class="main-container" />
  
-    <app-footer></app-footer>
+    <app-footer class="footer"></app-footer>
   </div>
 </template>
 <script>
@@ -33,7 +33,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #c5dbe2;
+  background: #028090;
+  min-height: 100vh;
 }
 #nav {
   padding: 30px;
@@ -47,4 +49,12 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+.main-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.header {
+  background: #114b5f;
+}
 </style>
+// https://coolors.co/114b5f-028090-c5dbe2-e4fde1-086b8c

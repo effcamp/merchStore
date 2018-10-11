@@ -31,6 +31,8 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: white;
+  color: #114b5f;
 }
 .image img {
   max-width: 150px;

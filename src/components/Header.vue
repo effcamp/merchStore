@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav>
+    <nav class="nav-bar">
       <h1><router-link to="/" tag="li">Merchstore</router-link></h1>
       <ul>
         <router-link to="/cart" tag="li">Cart</router-link>
@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style>
+.nav-bar li {
+  padding: 20px 0;
+  margin-left: 19px;
+}
 li {
   list-style-type: none;
   cursor: pointer;
